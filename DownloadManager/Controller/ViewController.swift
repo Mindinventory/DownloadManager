@@ -68,7 +68,8 @@ class ViewController: UIViewController {
 
     func reload(at indexPath: IndexPath) {
         DispatchQueue.main.async { [weak self] in
-            self?.tableView.reloadData()
+            guard let strongSelf = self else { return }
+            strongSelf.tableView.reloadRows(at: [indexPath], with: .none)
         }
     }
 
