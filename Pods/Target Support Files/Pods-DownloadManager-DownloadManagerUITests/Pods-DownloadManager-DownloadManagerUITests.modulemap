@@ -1,0 +1,6 @@
+framework module Pods_DownloadManager_DownloadManagerUITests {
+  umbrella header "Pods-DownloadManager-DownloadManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

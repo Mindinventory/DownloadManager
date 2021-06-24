@@ -1,0 +1,16 @@
+PODS:
+  - AHDownloadButton (1.2.0)
+
+DEPENDENCIES:
+  - AHDownloadButton
+
+SPEC REPOS:
+  trunk:
+    - AHDownloadButton
+
+SPEC CHECKSUMS:
+  AHDownloadButton: 7a3927c9365fbd6d08682d26832d87dd0cd5573f
+
+PODFILE CHECKSUM: d35d4529e9cbe190d129356580564364767d9455
+
+COCOAPODS: 1.10.1
