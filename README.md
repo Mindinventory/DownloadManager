@@ -9,7 +9,7 @@
 </a>
 
 ## Preview
-![video](/Media/download.gif)
+![image](/Media/download_manager.gif)
 
 <p align="center">
     <a href="https://www.mindinventory.com" style="pointer-events: stroke;" target="_blank">
