@@ -21,6 +21,11 @@
 
 In download manager download mp3 file and store that file in local and play, pause and stop that mp3 file
 
+## Feature
+- Download mp3 media file
+- Store in local file system
+- Play pause and resume the mp3 file
+
 ## LICENSE!
 
 DownloadManager is [MIT-licensed](/LICENSE).
