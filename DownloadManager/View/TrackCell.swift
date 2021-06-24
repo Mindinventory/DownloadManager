@@ -8,12 +8,6 @@
 import UIKit
 import AHDownloadButton
 
-
-
-
-
-
-
 class TrackCell: UITableViewCell {
     //MARK: - IBOutlets
     @IBOutlet weak var lbltrack: UILabel!
