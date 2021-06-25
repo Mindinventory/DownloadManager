@@ -32,7 +32,7 @@ class TrackCell: UITableViewCell {
         }
     }
 
-    //MARK: - Stored Properties
+    //MARK: - Computed Properties
     var audioState: PlayerAudioState = .initial {
         didSet {
             self.btnPlayPause.setImage(audioState.image, for: .normal)
@@ -60,13 +60,9 @@ class TrackCell: UITableViewCell {
 
     override func prepareForReuse() {
         super.prepareForReuse()
-        self.downloadButton.state = .startDownload
+        self.downloadButton.state = self.downloadState.isOngoing ? .downloading : .startDownload
         self.downloadButton.progress = 0.0
-
     }
-
-
-
 
     //MARK: - Instance Methods
     func configure(with track: Track, isDownloaded: Bool, and download: Download?, state: PlayerAudioState?, downloadState: DownloadState?, indexPath: IndexPath) {
