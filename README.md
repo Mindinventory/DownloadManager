@@ -25,7 +25,6 @@ In download manager, download mp3 file, store that file in local and play, pause
 - Download mp3 media file
 - Store in local file system
 - Play pause and resume the mp3 file
-- 
 
 ##
 Read more from [MEDIUM](https://medium.com/mindful-engineering/downloadmanager-3839ce4f3b55)
